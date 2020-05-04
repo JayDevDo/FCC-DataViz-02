@@ -1,0 +1,60 @@
+<html>
+<!--  
+    http://127.0.0.1/JAVA/FCC/04 - Data Visualisation/project-2/index.html
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+-->
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<style>
+
+    #app{
+        background-color: #000066;
+        border: 1px solid yellow;
+    }
+
+    #svgContainer{
+        border: 1px solid white;
+    }
+
+    #title{
+        color: white;
+    }
+
+    .legend{
+        fill: white; 
+        font-size: 18px; 
+        background-color: black; 
+    }
+
+    circle.doper{
+        fill: red;
+    }
+
+    circle.nodoper{
+        fill: green;
+    }
+
+    .tick{
+        color: #ffffff;
+        font-size: 20px;
+    }
+</style>
+
+<body id="app" width="95%" height=80%>
+<div id="title">
+    <strong>Doping in Professional Bicycle Racing</strong>
+    <span>aka the 35 Fastest times up Alpe d'Huez</span>
+</div>
+
+<div id="svgContainer" width="95%" height="100%"></div>
+
+<div>
+</div>
+</body>
+
+<script src="FCC-4-2.js"></script>
+
+</html>
